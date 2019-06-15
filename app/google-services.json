@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "310007147929",
+    "firebase_url": "https://domitila-3b618.firebaseio.com",
+    "project_id": "domitila-3b618",
+    "storage_bucket": "domitila-3b618.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310007147929:android:6b65c3ab399b46a4",
+        "android_client_info": {
+          "package_name": "com.accounting.javierpardo.domitilapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310007147929-hd6jqiesncrhf00gl8cibs3ruagl5s0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7bXxdtKRzsX8eRomaTXWNfMXe4usU6Uc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310007147929-hd6jqiesncrhf00gl8cibs3ruagl5s0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
