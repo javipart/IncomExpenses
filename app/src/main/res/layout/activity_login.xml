@@ -8,7 +8,7 @@
         android:layout_height="match_parent"
         android:gravity="start"
         android:padding="50dp"
-        tools:context=".MainActivity">
+        tools:context=".LoginActivity">
     <ProgressBar
             android:id="@+id/progressBar"
             style="?android:attr/progressBarStyleHorizontal"
@@ -26,17 +26,20 @@
             android:id="@+id/TxtUser"
             android:inputType="textEmailAddress"
             android:layout_width="match_parent"
-            android:hint="E-mail"
-            android:layout_height="wrap_content"/>
+            android:hint="@string/hintEmail"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"/>
     <EditText
             android:id="@+id/TxtPassword"
             android:inputType="numberPassword"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:hint="@string/hintPassword"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"/>
     <Button
             android:onClick="login"
             android:id="@+id/buttonLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/btnLogin"/>
+            android:text="@string/login"/>
 </LinearLayout>

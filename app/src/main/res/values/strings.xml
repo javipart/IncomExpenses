@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">DomitilApp</string>
-    <string name="btnLogin">Acceder</string>
+    <string name="login">Acceder</string>
+    <string name="income">Registrar Ingreso</string>
+    <string name="expense">Registrar Gasto</string>
+    <string name="report">Ver Reporte</string>
+    <string name="exit">Salir</string>
+    <string name="hintEmail">E-mail</string>
+    <string name="hintPassword">Contraseña</string>
+    <string name="hintAmount">Valor</string>
+    <string name="hintDescription">Descripción</string>
+    <string name="register">Registrar</string>
+    <string name="titleIncome">Ingreso</string>
+    <string name="titleExpense">Gasto</string>
 </resources>

@@ -11,10 +11,10 @@ import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {
-    private lateinit var txtUser:EditText
-    private lateinit var txtPassword:EditText
+    private lateinit var txtUser: EditText
+    private lateinit var txtPassword: EditText
     private lateinit var progressBar: ProgressBar
-    private lateinit var auth:FirebaseAuth
+    private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,6 +42,7 @@ class LoginActivity : AppCompatActivity() {
 
                     if(task.isSuccessful){
                         action()
+                        progressBar.visibility = View.INVISIBLE
                     }else{
                         Toast.makeText(this, "Error al Iniciar Sesión", Toast.LENGTH_LONG).show()
                     }

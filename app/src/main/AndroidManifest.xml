@@ -18,6 +18,12 @@
         </activity>
         <activity android:name=".MainActivity">
         </activity>
+        <activity android:name=".IncomeActivity">
+        </activity>
+        <activity android:name=".ExpenseActivity">
+        </activity>
+        <activity android:name=".ReportActivity">
+        </activity>
     </application>
 
 </manifest>
